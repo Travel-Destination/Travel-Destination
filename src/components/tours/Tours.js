@@ -7,6 +7,10 @@ return(
      <p>{props.price}</p>
      <img src={props.image} alt={props.alt} />  
 
+
+     <p> ==============</p>
+
+
     </>
 )
 
