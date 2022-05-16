@@ -3,7 +3,7 @@ return(
 
 <>
 
-<h1> Travel Destination</h1>
+<h1> {props.title}</h1>
 
 </>
 );

@@ -1,11 +1,10 @@
 function Tours(props){
 return(
     <>
-     <p>{props.id}</p> 
-     <p>{props.name}</p>
-     <p>{props.info}</p>
-     <p>{props.price}</p>
-     <img src={props.image} alt={props.alt} />  
+     
+     <h3>{props.name}</h3>
+     
+     <img src={props.image} alt={props.name} />  
 
 
      <p> ==============</p>
