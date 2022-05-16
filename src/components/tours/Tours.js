@@ -1,17 +1,20 @@
-function Tours(props){
-return(
+
+import Tour from "./tour/Tour";
+
+
+const Tours = (props) => {
+
+
+  return (
     <>
-     
-     <h3>{props.name}</h3>
-     
-     <img src={props.image} alt={props.name} />  
-
-
-     <p> ==============</p>
-
-
+      <section className="tour section">
+        <div className="container">
+          <Tour name={props.name} image={props.image} id={props.id} />
+          
+        </div>
+      </section>
     </>
-)
-
+  );
 }
+
 export default Tours;
